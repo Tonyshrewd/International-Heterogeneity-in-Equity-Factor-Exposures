@@ -51,6 +51,11 @@ say <- function(...) {
 
 read_jkp <- function(ds, w) {
   f <- sprintf("raw/csv/[all_countries]_[%s]_[monthly]_[%s].csv", ds, w)
+  z <- sprintf("raw/zips/all_countries_%s_monthly_%s.zip", ds, w)
+  if (!file.exists(f) && file.exists(z)) {   # zips are in the repo; CSVs are too big for GitHub
+    dir.create("raw/csv", recursive = TRUE, showWarnings = FALSE)
+    unzip(z, exdir = "raw/csv")
+  }
   if (!file.exists(f)) stop("Missing file: ", f, "  -- run 01_download.R first")
   dt <- fread(f, showProgress = FALSE)
   dt[, `:=`(country = toupper(location), date = as.IDate(date))]

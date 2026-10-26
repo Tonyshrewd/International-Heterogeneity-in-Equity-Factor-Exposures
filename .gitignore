@@ -1,15 +1,11 @@
-# Raw JKP downloads (~600 MB): re-created by scripts/01_download.R
-raw/zips/
+# Unzipped raw CSVs are 180-190 MB each, over GitHub's 100 MB file limit.
+# The identical data is committed in raw/zips/; scripts/02_build_panel.R
+# unzips it automatically.
 raw/csv/
 
-# Large intermediate files: re-created by scripts/02_build_panel.R
-data/factors_long_*.csv.gz
-data/factors_long_vw.rds
-data/factors_long_ew.rds
-data/themes_long.csv
-
-# Packaged copies and R session files
+# Packaged copies (except the raw data zips) and R session files
 *.zip
+!raw/zips/*.zip
 .Rhistory
 .RData
 .Rproj.user/

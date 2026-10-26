@@ -10,16 +10,28 @@ Data built on 26 October 2026.
 - Maria Sultana
 - Dr. Mohammad Najand (faculty supervisor)
 
-## How to rebuild everything
+## How to use
 
-From this folder, in R (packages needed: `data.table`, `readxl`):
+All data is included in this repository. The clean files in `data/` are ready to use. To load the main panel in R:
+
+```r
+panel <- readRDS("data/panel_vw_cap.rds")
+```
+
+To rebuild everything from the raw data (packages needed: `data.table`, `readxl`):
 
 ```
-Rscript scripts/01_download.R      # ~ 1-5 min: downloads 9 files from JKP (~150 MB zipped)
-Rscript scripts/02_build_panel.R   # ~ 1 min: cleans, checks, builds the panel
+Rscript scripts/02_build_panel.R   # ~ 1 min: unzips raw/zips, cleans, checks, builds the panel
+Rscript scripts/01_download.R      # optional: re-download the raw files from JKP (e.g. for a newer release)
 ```
 
-Or open each script in RStudio, set the working directory to this folder, and click Source.
+Or open the script in RStudio, set the working directory to this folder, and click Source.
+
+The raw JKP files are stored zipped in `raw/zips/` because each unzipped factor CSV (180–190 MB) is over GitHub's 100 MB file limit. The build script unzips them into `raw/csv/` automatically.
+
+## Data license
+
+The JKP Global Factor Data is licensed under CC BY-NC 4.0 (non-commercial use with attribution). Cite: Jensen, T. I., Kelly, B., and Pedersen, L. H. (2023). "Is There a Replication Crisis in Finance?" *Journal of Finance*, 78(5), 2465–2518.
 
 ## Source and release
 
@@ -37,7 +49,8 @@ Or open each script in RStudio, set the working directory to this folder, and cl
 
 ```
 scripts/   01_download.R, 02_build_panel.R, theme_map.csv, country_meta.csv
-raw/       downloaded zips and CSVs (never edited), factor_details.xlsx, download_log.csv
+raw/       zips/ (original JKP downloads, never edited), factor_details.xlsx, download_log.csv
+           csv/ is created locally by the scripts and not stored on GitHub
 data/      clean datasets (below)
 output/    coverage tables and data checks
 ```
