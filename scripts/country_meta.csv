@@ -1,0 +1,97 @@
+iso3,country,msci
+ARG,Argentina,standalone
+AUS,Australia,developed
+AUT,Austria,developed
+BHR,Bahrain,frontier
+BGD,Bangladesh,frontier
+BEL,Belgium,developed
+BMU,Bermuda,not rated
+BWA,Botswana,standalone
+BRA,Brazil,emerging
+BGR,Bulgaria,standalone
+CAN,Canada,developed
+CHL,Chile,emerging
+CHN,China,emerging
+COL,Colombia,emerging
+HRV,Croatia,frontier
+CYP,Cyprus,not rated
+CZE,Czech Republic,emerging
+DNK,Denmark,developed
+ECU,Ecuador,not rated
+EGY,Egypt,emerging
+EST,Estonia,frontier
+FIN,Finland,developed
+FRA,France,developed
+DEU,Germany,developed
+GHA,Ghana,not rated
+GRC,Greece,emerging
+GGY,Guernsey,not rated
+HKG,Hong Kong,developed
+HUN,Hungary,emerging
+ISL,Iceland,frontier
+IND,India,emerging
+IDN,Indonesia,emerging
+IRN,Iran,not rated
+IRL,Ireland,developed
+ISR,Israel,developed
+ITA,Italy,developed
+JAM,Jamaica,standalone
+JPN,Japan,developed
+JOR,Jordan,frontier
+KAZ,Kazakhstan,frontier
+KEN,Kenya,frontier
+KOR,South Korea,emerging
+KWT,Kuwait,emerging
+LVA,Latvia,frontier
+LBN,Lebanon,standalone
+LTU,Lithuania,frontier
+LUX,Luxembourg,not rated
+MWI,Malawi,not rated
+MYS,Malaysia,emerging
+MLT,Malta,standalone
+MUS,Mauritius,frontier
+MEX,Mexico,emerging
+MAR,Morocco,frontier
+NAM,Namibia,not rated
+NLD,Netherlands,developed
+NZL,New Zealand,developed
+NGA,Nigeria,standalone
+NOR,Norway,developed
+OMN,Oman,frontier
+PAK,Pakistan,frontier
+PSE,Palestine,standalone
+PER,Peru,emerging
+PHL,Philippines,emerging
+POL,Poland,emerging
+PRT,Portugal,developed
+QAT,Qatar,emerging
+ROU,Romania,frontier
+RUS,Russia,not rated
+SAU,Saudi Arabia,emerging
+SEN,Senegal,frontier
+SRB,Serbia,frontier
+SGP,Singapore,developed
+SVK,Slovakia,not rated
+SVN,Slovenia,frontier
+ZAF,South Africa,emerging
+ESP,Spain,developed
+LKA,Sri Lanka,frontier
+SWE,Sweden,developed
+CHE,Switzerland,developed
+TWN,Taiwan,emerging
+TZA,Tanzania,not rated
+THA,Thailand,emerging
+TTO,Trinidad and Tobago,standalone
+TUN,Tunisia,frontier
+TUR,Turkey,emerging
+UGA,Uganda,not rated
+UKR,Ukraine,standalone
+ARE,United Arab Emirates,emerging
+GBR,United Kingdom,developed
+USA,United States,developed
+URY,Uruguay,not rated
+VEN,Venezuela,not rated
+VNM,Vietnam,frontier
+ZMB,Zambia,not rated
+ZWE,Zimbabwe,standalone
+CIV,Cote d'Ivoire,not in JKP table

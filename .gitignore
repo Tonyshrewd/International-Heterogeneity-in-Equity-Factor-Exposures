@@ -1,0 +1,15 @@
+# Raw JKP downloads (~600 MB): re-created by scripts/01_download.R
+raw/zips/
+raw/csv/
+
+# Large intermediate files: re-created by scripts/02_build_panel.R
+data/factors_long_*.csv.gz
+data/factors_long_vw.rds
+data/factors_long_ew.rds
+data/themes_long.csv
+
+# Packaged copies and R session files
+*.zip
+.Rhistory
+.RData
+.Rproj.user/

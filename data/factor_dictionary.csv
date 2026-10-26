@@ -1,0 +1,154 @@
+factor,theme,description,citation,original_sample,direction_xlsx,significant_in_original,hxz_group
+age,low_leverage,Firm age,Jiang Lee and Zhang (2005),1965 - 2001,-1,1,INTANGIBLES
+aliq_at,investment,Liquidity of book assets,Ortiz-Molina and Phillips (2014),1984 - 2006,-1,0,INTANGIBLES
+aliq_mat,low_leverage,Liquidity of market assets,Ortiz-Molina and Phillips (2014),1984 - 2006,-1,0,INTANGIBLES
+ami_126d,size,Amihud Measure,Amihud (2002),1964 - 1997,1,1,TRADING FRICTIONS
+at_be,low_leverage,Book leverage,Fama and French (1992),1963 - 1990,-1,0,Profitability
+at_gr1,investment,Asset Growth,Cooper Gulen and Schill (2008),1968 - 2003,-1,1,INVESTMENT
+at_me,value,Assets-to-market,Fama and French (1992),1963 - 1990,1,0,VALUE
+at_turnover,quality,Capital turnover,Haugen and Baker (1996),1979 - 1993,1,0,Profitability
+be_gr1a,investment,Change in common equity,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+be_me,value,Book-to-market equity,Rosenberg Reid and Lanstein (1985),1973 - 1984,1,1,VALUE
+beta_60m,low_risk,Market Beta,Fama and MacBeth (1973),1935 - 1968,-1,1,TRADING FRICTIONS
+beta_dimson_21d,low_risk,Dimson beta,Dimson (1979),1955 - 1974,-1,0,TRADING FRICTIONS
+betabab_1260d,low_risk,Frazzini-Pedersen market beta,Frazzini and Pedersen (2014),1926 - 2012,-1,1,TRADING FRICTIONS
+betadown_252d,low_risk,Downside beta,Ang Chen and Xing (2006),1963 - 2001,-1,1,TRADING FRICTIONS
+bev_mev,value,Book-to-market enterprise value,Penman Richardson and Tuna (2007),1962 - 2001,1,1,VALUE
+bidaskhl_21d,low_leverage,The high-low bid-ask spread,Corwin and Schultz (2012),1927 - 2006,1,1,TRADING FRICTIONS
+capex_abn,debt_issuance,Abnormal corporate investment,Titman Wei and Xie (2004),1973 - 1996,-1,1,INVESTMENT
+capx_gr1,investment,CAPEX growth (1 year),Xie (2001),1971-1992,-1,0,INVESTMENT
+capx_gr2,investment,CAPEX growth (2 years),Anderson and Garcia-Feijoo (2006),1976 - 1998,-1,1,INVESTMENT
+capx_gr3,investment,CAPEX growth (3 years),Anderson and Garcia-Feijoo (2006),1976 - 1998,-1,1,INVESTMENT
+cash_at,low_leverage,Cash-to-assets,Palazzo (2012),1972 - 2009,1,0,INTANGIBLES
+chcsho_12m,value,Net stock issues,Pontiff and Woodgate (2008),1970 - 2003,-1,1,INVESTMENT
+coa_gr1a,investment,Change in current operating assets,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+col_gr1a,investment,Change in current operating liabilities,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+cop_at,quality,Cash-based operating profits-to-book assets,,1967 - 2016,1,0,Profitability
+cop_atl1,quality,Cash-based operating profits-to-lagged book assets,Ball et al. (2016),1963 - 2014,1,1,Profitability
+corr_1260d,seasonality,Market correlation,"Assness, Frazzini, Gormsen, Pedersen (2020)",1925 - 2015,-1,1,NEW
+coskew_21d,seasonality,Coskewness,Harvey and Siddique (2000),1963 - 1993,-1,1,TRADING FRICTIONS
+cowc_gr1a,accruals,Change in current operating working capital,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+dbnetis_at,seasonality,Net debt issuance,Bradshaw Richardson and Sloan (2006),1971 - 2000,-1,1,INVESTMENT
+debt_gr3,debt_issuance,Growth in book debt (3 years),Lyandres Sun and Zhang (2008),1970 - 2005,-1,1,INVESTMENT
+debt_me,value,Debt-to-market,Bhandari (1988),1948 - 1979,1,1,VALUE
+dgp_dsale,quality,Change gross margin minus change sales,Abarbanell and Bushee (1998),1974 - 1988,1,0,INTANGIBLES
+div12m_me,value,Dividend yield,Litzenberger and Ramaswamy (1979),1940 -1980,1,1,VALUE
+dolvol_126d,size,Dollar trading volume,Brennan Chordia and Subrahmanyam (1998),1966 - 1995,-1,1,TRADING FRICTIONS
+dolvol_var_126d,profitability,Coefficient of variation for dollar trading volume,Chordia Subrahmanyam and Anshuman (2001),1966 - 1995,-1,1,TRADING FRICTIONS
+dsale_dinv,profit_growth,Change sales minus change Inventory,Abarbanell and Bushee (1998),1974 - 1988,1,1,INTANGIBLES
+dsale_drec,profit_growth,Change sales minus change receivables,Abarbanell and Bushee (1998),1974 - 1988,-1,0,INTANGIBLES
+dsale_dsga,profit_growth,Change sales minus change SG&A,Abarbanell and Bushee (1998),1974 - 1988,1,0,INTANGIBLES
+earnings_variability,low_risk,Earnings variability,Francis et al. (2004),1975 - 2001,-1,0,INTANGIBLES
+ebit_bev,profitability,Return on net operating assets,Soliman (2008),1984 - 2002,1,1,Profitability
+ebit_sale,profitability,Profit margin,Soliman (2008),1984 - 2002,1,1,Profitability
+ebitda_mev,value,Ebitda-to-market enterprise value,Loughran and Wellman (2011),1963 - 2009,1,1,VALUE
+emp_gr1,investment,Hiring rate,Belo Lin and Bazdresch (2014),1965 - 2010,-1,1,INTANGIBLES
+eq_dur,value,Equity duration,Dechow Sloan and Soliman (2004),1962 - 1998,-1,1,VALUE
+eqnetis_at,value,Net equity issuance,Bradshaw Richardson and Sloan (2006),1971 - 2000,-1,1,INVESTMENT
+eqnpo_12m,value,Equity net payout,Daniel and Titman (2006),1968 - 2003,1,1,INVESTMENT
+eqnpo_me,value,Net payout yield,Boudoukh et al. (2007),1984 - 2003,1,1,VALUE
+eqpo_me,value,Payout yield,Boudoukh et al. (2007),1984 - 2003,1,1,VALUE
+f_score,profitability,Pitroski F-score,Piotroski (2000),1976 - 1996,1,1,Profitability
+fcf_me,value,Free cash flow-to-price,Lakonishok Shleifer and Vishny (1994),1963 - 1990,1,1,VALUE
+fnl_gr1a,debt_issuance,Change in financial liabilities,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+gp_at,quality,Gross profits-to-assets,Novy-Marx (2013),1963 - 2010,1,1,Profitability
+gp_atl1,quality,Gross profits-to-lagged assets,,1967 - 2016,1,0,Profitability
+inv_gr1,investment,Inventory growth,Belo and Lin (2011),1965 - 2009,-1,1,INVESTMENT
+inv_gr1a,investment,Inventory change,Thomas and Zhang (2002),1970 - 1997,-1,1,INVESTMENT
+iskew_capm_21d,short_term_reversal,Idiosyncratic skewness from the CAPM,,1967 - 2016,-1,0,TRADING FRICTIONS
+iskew_ff3_21d,short_term_reversal,Idiosyncratic skewness from the Fama-French 3-factor model,Bali Engle and Murray (2016),1925-2012,-1,1,TRADING FRICTIONS
+iskew_hxz4_21d,short_term_reversal,Idiosyncratic skewness from the q-factor model,,1967 - 2016,-1,0,TRADING FRICTIONS
+ival_me,value,Intrinsic value-to-market,Frankel and Lee (1998),1975 - 1993,1,0,VALUE
+ivol_capm_21d,low_risk,Idiosyncratic volatility from the CAPM (21 days),,1967 - 2016,-1,0,TRADING FRICTIONS
+ivol_capm_252d,low_risk,Idiosyncratic volatility from the CAPM (252 days),Ali Hwang and Trombley (2003),1976 - 1997,-1,1,TRADING FRICTIONS
+ivol_ff3_21d,low_risk,Idiosyncratic volatility from the Fama-French 3-factor model,Ang et al. (2006),1963 - 2000,-1,1,TRADING FRICTIONS
+ivol_hxz4_21d,low_risk,Idiosyncratic volatility from the q-factor model,,1967 - 2016,-1,0,TRADING FRICTIONS
+kz_index,seasonality,Kaplan-Zingales index,Lamont Polk and Saa-Requejo (2001),1968-1995,1,1,INTANGIBLES
+lnoa_gr1a,investment,Change in long-term net operating assets,Fairfield Whisenant and Yohn (2003),1964 - 1993,-1,1,INVESTMENT
+lti_gr1a,seasonality,Change in long-term investments,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+market_equity,size,Market Equity,Banz (1981),1926 - 1975,-1,1,TRADING FRICTIONS
+mispricing_mgmt,investment,Mispricing factor: Management,Stambaugh and Yuan (2016),1967 - 2013,1,1,NEW
+mispricing_perf,quality,Mispricing factor: Performance,Stambaugh and Yuan (2016),1967 - 2013,1,1,NEW
+ncoa_gr1a,investment,Change in noncurrent operating assets,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+ncol_gr1a,debt_issuance,Change in noncurrent operating liabilities,Richardson et al. (2005),1962 - 2001,-1,0,INVESTMENT
+netdebt_me,low_leverage,Net debt-to-price,Penman Richardson and Tuna (2007),1962 - 2001,-1,1,VALUE
+netis_at,value,Net total issuance,Bradshaw Richardson and Sloan (2006),1971 - 2000,-1,1,INVESTMENT
+nfna_gr1a,debt_issuance,Change in net financial assets,Richardson et al. (2005),1962 - 2001,1,1,INVESTMENT
+ni_ar1,debt_issuance,Earnings persistence,Francis et al. (2004),1975 - 2001,1,0,INTANGIBLES
+ni_be,profitability,Return on equity,Haugen and Baker (1996),1979 - 1993,1,1,NEW
+ni_inc8q,quality,Number of consecutive quarters with earnings increases,Barth Elliott and Finn (1999),1982 - 1992,1,0,Momentum
+ni_ivol,low_leverage,Earnings volatility,Francis et al. (2004),1975 - 2001,1,0,INTANGIBLES
+ni_me,value,Earnings-to-price,Basu (1983),1963-1979,1,1,VALUE
+niq_at,quality,Quarterly return on assets,Balakrishnan Bartov and Faurel (2010),1976 - 2005,1,1,Profitability
+niq_at_chg1,profit_growth,Change in quarterly return on assets,,1972 - 2016,1,0,Profitability
+niq_be,profitability,Quarterly return on equity,Hou Xue and Zhang (2015),1972 - 2012,1,1,Profitability
+niq_be_chg1,profit_growth,Change in quarterly return on equity,,1967 - 2016,1,0,Profitability
+niq_su,profit_growth,Standardized earnings surprise,Foster Olsen and Shevlin (1984),1974 - 1981,1,1,Momentum
+nncoa_gr1a,investment,Change in net noncurrent operating assets,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+noa_at,debt_issuance,Net operating assets,Hirshleifer et al. (2004),1964-2002,-1,1,INVESTMENT
+noa_gr1a,investment,Change in net operating assets,Hirshleifer et al. (2004),1964-2002,-1,1,INVESTMENT
+o_score,profitability,Ohlson O-score,Dichev (1998),1981 - 1995,-1,1,Profitability
+oaccruals_at,accruals,Operating accruals,Sloan (1996),1962 - 1991,-1,1,INVESTMENT
+oaccruals_ni,accruals,Percent operating accruals,Hafzalla Lundholm and Van Winkle (2011),1989 - 2008,-1,1,INVESTMENT
+ocf_at,profitability,Operating cash flow to assets,"Bouchard, Krüger, Landier and Thesmar (2019)",1990 - 2015,1,1,NEW
+ocf_at_chg1,profit_growth,Change in operating cash flow to assets,"Bouchard, Krüger, Landier and Thesmar (2019)",1990 - 2015,1,1,NEW
+ocf_me,value,Operating cash flow-to-market,Desai Rajgopal and Venkatachalam (2004),1973 - 1997,1,1,VALUE
+ocfq_saleq_std,low_risk,Cash flow volatility,Huang (2009),1980 - 2004,-1,1,INTANGIBLES
+op_at,quality,Operating profits-to-book assets,,1963 - 2013,1,1,Profitability
+op_atl1,quality,Operating profits-to-lagged book assets,Ball et al. (2016),1963 - 2014,1,1,Profitability
+ope_be,profitability,Operating profits-to-book equity,Fama and French (2015),1963 - 2013,1,1,Profitability
+ope_bel1,profitability,Operating profits-to-lagged book equity,,1967 - 2016,1,0,Profitability
+opex_at,quality,Operating leverage,Novy-Marx (2011),1963 - 2008,1,1,INTANGIBLES
+pi_nix,seasonality,Taxable income-to-book income,Lev and Nissim (2004),1973-2000,1,1,Profitability
+ppeinv_gr1a,investment,Change PPE and Inventory,Lyandres Sun and Zhang (2008),1970 - 2005,-1,1,INVESTMENT
+prc,size,Price per share,Miller and Scholes (1982),1940 - 1978,-1,1,TRADING FRICTIONS
+prc_highprc_252d,momentum,Current price to high price over last year,George and Hwang (2004),1963 - 2001,1,1,Momentum
+qmj,quality,Quality minus Junk: Composite,"Assness, Frazzini and Pedersen (2018)",1957 - 2016,1,1,NEW
+qmj_growth,quality,Quality minus Junk: Growth,"Assness, Frazzini and Pedersen (2018)",1957 - 2016,1,1,NEW
+qmj_prof,quality,Quality minus Junk: Profitability,"Assness, Frazzini and Pedersen (2018)",1957 - 2016,1,1,NEW
+qmj_safety,quality,Quality minus Junk: Safety,"Assness, Frazzini and Pedersen (2018)",1957 - 2016,1,1,NEW
+rd5_at,low_leverage,R&D capital-to-book assets,Li (2011),1952 - 2004,1,0,INTANGIBLES
+rd_me,size,R&D-to-market,Chan Lakonishok and Sougiannis (2001),1975 - 1995,1,1,INTANGIBLES
+rd_sale,low_leverage,R&D-to-sales,Chan Lakonishok and Sougiannis (2001),1975 - 1995,1,0,INTANGIBLES
+resff3_12_1,momentum,Residual momentum t-12 to t-1,Blitz Huij and Martens (2011),1930 - 2009,1,1,Momentum
+resff3_6_1,momentum,Residual momentum t-6 to t-1,Blitz Huij and Martens (2011),1930 - 2009,1,1,Momentum
+ret_12_1,momentum,Price momentum t-12 to t-1,Jegadeesh and Titman (1993),1965 - 1989,1,1,Momentum
+ret_12_7,profit_growth,Price momentum t-12 to t-7,Novy-Marx (2012),1925 - 2010,1,1,NEW
+ret_1_0,short_term_reversal,Short-term reversal,Jegadeesh (1990),1929 - 1982,-1,1,TRADING FRICTIONS
+ret_3_1,momentum,Price momentum t-3 to t-1,Jegedeesh and Titman (1993),1965 - 1989,1,1,NEW
+ret_60_12,investment,Long-term reversal,De Bondt and Thaler (1985),1926 - 1982,-1,1,VALUE
+ret_6_1,momentum,Price momentum t-6 to t-1,Jegadeesh and Titman (1993),1965 - 1989,1,1,Momentum
+ret_9_1,momentum,Price momentum t-9 to t-1,Jegedeesh and Titman (1993),1965 - 1989,1,1,NEW
+rmax1_21d,low_risk,Maximum daily return,Bali Cakici and Whitelaw (2011),1962 -2005,-1,1,TRADING FRICTIONS
+rmax5_21d,low_risk,Highest 5 days of return,"Bali, Brown, Murray and Tang (2017)",1993 - 2012,-1,1,NEW
+rmax5_rvol_21d,short_term_reversal,Highest 5 days of return scaled by volatility,"Assness, Frazzini, Gormsen, Pedersen (2020)",1925-2015,-1,1,NEW
+rskew_21d,short_term_reversal,Total skewness,Bali Engle and Murray (2016),1925-2012,-1,1,TRADING FRICTIONS
+rvol_21d,low_risk,Return volatility,Ang et al. (2006),1963 - 2000,-1,1,TRADING FRICTIONS
+sale_bev,quality,Asset turnover,Soliman (2008),1984 - 2002,1,1,Profitability
+sale_emp_gr1,profit_growth,Labor force efficiency,Abarbanell and Bushee (1998),1974 - 1988,1,0,INTANGIBLES
+sale_gr1,investment,Sales Growth (1 year),Lakonishok Shleifer and Vishny (1994),1968 - 1989,-1,1,VALUE
+sale_gr3,investment,Sales Growth (3 years),Lakonishok Shleifer and Vishny (1994),1968 - 1989,-1,1,VALUE
+sale_me,value,Sales-to-market,Barbee Mukherji and Raines (1996),1979-1991,1,1,VALUE
+saleq_gr1,investment,Sales growth (1 quarter),,1967 - 2016,-1,0,Profitability
+saleq_su,profit_growth,Standardized Revenue surprise,Jegadeesh and Livnat (2006),1987 - 2003,1,1,Momentum
+seas_11_15an,seasonality,"Years 11-15 lagged returns, annual",Heston and Sadka (2008),1965 - 2002,1,1,INTANGIBLES
+seas_11_15na,seasonality,"Years 11-15 lagged returns, nonannual",Heston and Sadka (2008),1965 - 2002,-1,0,INTANGIBLES
+seas_16_20an,seasonality,"Years 16-20 lagged returns, annual",Heston and Sadka (2008),1965 - 2002,1,1,INTANGIBLES
+seas_16_20na,accruals,"Years 16-20 lagged returns, nonannual",Heston and Sadka (2008),1965 - 2002,-1,1,INTANGIBLES
+seas_1_1an,profit_growth,"Year 1-lagged return, annual",Heston and Sadka (2008),1965 - 2002,1,1,INTANGIBLES
+seas_1_1na,momentum,"Year 1-lagged return, nonannual",Heston and Sadka (2008),1965 - 2002,1,1,INTANGIBLES
+seas_2_5an,seasonality,"Years 2-5 lagged returns, annual",Heston and Sadka (2008),1965 - 2002,1,1,INTANGIBLES
+seas_2_5na,investment,"Years 2-5 lagged returns, nonannual",Heston and Sadka (2008),1965 - 2002,-1,1,INTANGIBLES
+seas_6_10an,seasonality,"Years 6-10 lagged returns, annual",Heston and Sadka (2008),1965 - 2002,1,1,INTANGIBLES
+seas_6_10na,low_risk,"Years 6-10 lagged returns, nonannual",Heston and Sadka (2008),1965 - 2002,-1,1,INTANGIBLES
+sti_gr1a,seasonality,Change in short-term investments,Richardson et al. (2005),1962 - 2001,1,0,INVESTMENT
+taccruals_at,accruals,Total accruals,Richardson et al. (2005),1962 - 2001,-1,1,INVESTMENT
+taccruals_ni,accruals,Percent total accruals,Hafzalla Lundholm and Van Winkle (2011),1989 - 2008,-1,1,INVESTMENT
+tangibility,low_leverage,Asset tangibility,Hahn and Lee (2009),1973-2001,1,0,INTANGIBLES
+tax_gr1a,profit_growth,Tax expense surprise,Thomas and Zhang (2011),1977 - 2006,1,1,Momentum
+turnover_126d,low_risk,Share turnover,Datar Naik and Radcliffe (1998),1963 - 1991,-1,1,TRADING FRICTIONS
+turnover_var_126d,profitability,Coefficient of variation for share turnover,Chordia Subrahmanyam and Anshuman (2001),1966 - 1995,-1,1,TRADING FRICTIONS
+z_score,low_leverage,Altman Z-score,Dichev (1998),1981 - 1995,1,1,Profitability
+zero_trades_126d,low_risk,Number of zero trades with turnover as tiebreaker (6 months),Liu (2006),1963 - 2003,1,1,TRADING FRICTIONS
+zero_trades_21d,low_risk,Number of zero trades with turnover as tiebreaker (1 month),Liu (2006),1963 - 2003,1,0,TRADING FRICTIONS
+zero_trades_252d,low_risk,Number of zero trades with turnover as tiebreaker (12 months),Liu (2006),1963 - 2003,1,1,TRADING FRICTIONS

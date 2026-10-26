@@ -1,0 +1,30 @@
+JKP data build log -- 2026-10-26 18:45:26 
+
+Reference tables: 153 factors in 13 themes 
+[vw_cap] market: 36395 rows, 95 countries | themes: 276214 rows, 71 countries 
+[vw_cap] factors: 2712097 rows, 71 countries, 153 factors 
+[vw] market: 36395 rows, 95 countries | themes: 276214 rows, 71 countries 
+[vw] factors: 2712097 rows, 71 countries, 153 factors 
+[ew] market: 36395 rows, 95 countries | themes: 276214 rows, 71 countries 
+[ew] factors: 2712097 rows, 71 countries, 153 factors 
+Factors whose data 'direction' differs from factor_details.xlsx: 0 
+
+Theme reconstruction check (vw_cap): 
+  theme = plain average of factor 'ret' column? TRUE 
+  largest gap, plain average:   2.22e-16 
+  largest gap, direction*ret:   2.73 
+  -> factor returns in the files are ALREADY SIGNED (long = higher expected return side); use 'ret' as is. 
+
+Panel (vw_cap): 36395 country-months, 95 countries 
+  rows with themes but no market return: 0 
+  rows with market but no theme at all:   13950 
+  countries missing from country_meta:     
+  countries with gaps in the market series: 26 (BGR, BHR, BRA, BWA, ECU, EGY, GGY, GHA, GRC, JAM, JOR, LKA, LTU, MWI, NAM, NGA, OMN, PRT, PSE, QAT, SAU, SVK, TTO, UKR, ZMB, ZWE) 
+  USA market: 1926-01-31 to 2025-12-31, mean 0.73%/month, sd 5.96%/month, annualized Sharpe 0.43 
+
+Coverage: 49 of 95 countries have >= 120 complete months (market + all 13 themes) 
+  by MSCI group (eligible): developed 23, emerging 22, not rated 1, frontier 2, standalone 1 
+
+Common window, pilot countries: 1991-02-28 to 2025-12-31 (419 months, contiguous = TRUE) 
+
+Done. Files written to data/ and output/. 
