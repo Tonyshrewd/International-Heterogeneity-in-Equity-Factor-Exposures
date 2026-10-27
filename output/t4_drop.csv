@@ -1,0 +1,16 @@
+theme,USA,JPN,DEU,GBR,AUS
+Accruals,0.3,2.0,0.1,0.2,0.2
+Debt issuance,0.1,0.0,0.0,0.0,0.4
+Investment,0.0,0.1,0.1,1.5,1.9
+Low leverage,2.0,0.6,0.2,0.7,0.2
+Low risk,27.3,15.4,23.1,15.4,8.6
+Momentum,0.2,0.0,0.6,0.0,0.6
+Profit growth,0.0,0.5,0.1,0.0,0.4
+Profitability,0.0,0.4,0.0,0.7,0.5
+Quality,0.0,1.4,0.3,0.8,0.4
+Seasonality,0.7,0.1,0.0,0.1,0.7
+Short-term reversal,2.3,0.4,1.7,2.1,0.0
+Size,0.0,1.5,0.2,0.1,0.6
+Value,0.0,2.2,1.7,0.9,0.1
+Sum of drop-one,32.8,24.6,28.0,22.4,14.5
+Full-model R2,69.3,51.7,56.0,47.1,43.1
