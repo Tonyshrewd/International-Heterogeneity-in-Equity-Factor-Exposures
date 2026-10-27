@@ -1,0 +1,17 @@
+description,USA,JPN,DEU,GBR,AUS
+Market Beta,1,1,1,1,2
+Frazzini-Pedersen market beta,2,2,2,3,4
+Downside beta,3,9,3,2,1
+Return volatility,5,4,8,4,5
+Dimson beta,4,6,4,10,3
+Idiosyncratic volatility from the CAPM (21 days),13,5,12,6,7
+Maximum daily return,7,7,11,9,9
+Number of zero trades with turnover as tiebreaker (12 months),6,12,5,11,11
+Highest 5 days of return,11,10,10,7,8
+Idiosyncratic volatility from the Fama-French 3-factor model,14,8,13,5,6
+Idiosyncratic volatility from the CAPM (252 days),12,3,14,8,10
+Number of zero trades with turnover as tiebreaker (6 months),8,13,7,13,12
+Share turnover,9,14,6,12,13
+Number of zero trades with turnover as tiebreaker (1 month),10,11,9,14,15
+"Years 6-10 lagged returns, nonannual",16,16,15,15,14
+Earnings variability,15,15,16,16,16

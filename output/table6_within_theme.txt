@@ -1,0 +1,87 @@
+TABLE 6. Model 3: individual factors within the most important themes
+Market excess return regressed on the theme's individual factors; exact Shapley decomposition of R2.
+Common window Feb 1991 to Dec 2025 ; factors kept if observed in >= 85 % of months; complete months only.
+Low risk uses the same 16 factors in every country.
+
+USA | Low leverage (theme rank 2) | factors 11/11 | 419 months
+   R2: theme average 0.16, all factors 0.59 | first principal component explains 0.79 of factor variance
+   Top factors: The high-low bid-ask spread (26%); Earnings volatility (18%); Firm age (13%)
+
+USA | Low risk (theme rank 1) | factors 16/18 | 419 months
+   R2: theme average 0.48, all factors 0.65 | first principal component explains 0.86 of factor variance
+   Top factors: Market Beta (13%); Frazzini-Pedersen market beta (12%); Downside beta (9%)
+   Not used (coverage): ivol_hxz4_21d ocfq_saleq_std
+
+JPN | Quality (theme rank 2) | factors 15/17 | 419 months
+   R2: theme average 0.12, all factors 0.40 | first principal component explains 0.57 of factor variance
+   Top factors: Quality minus Junk: Safety (47%); Quality minus Junk: Composite (13%); Quality minus Junk: Profitability (7%)
+   Not used (coverage): ni_inc8q niq_at
+
+JPN | Low risk (theme rank 1) | factors 16/18 | 360 months
+   R2: theme average 0.37, all factors 0.48 | first principal component explains 0.74 of factor variance
+   Top factors: Market Beta (17%); Frazzini-Pedersen market beta (10%); Idiosyncratic volatility from the CAPM (252 days) (10%)
+   Not used (coverage): ivol_hxz4_21d ocfq_saleq_std
+
+DEU | Momentum (theme rank 2) | factors 8/8 | 404 months
+   R2: theme average 0.16, all factors 0.42 | first principal component explains 0.71 of factor variance
+   Top factors: Current price to high price over last year (56%); Price momentum t-9 to t-1 (9%); Price momentum t-12 to t-1 (8%)
+
+DEU | Low risk (theme rank 1) | factors 16/18 | 360 months
+   R2: theme average 0.45, all factors 0.62 | first principal component explains 0.67 of factor variance
+   Top factors: Market Beta (17%); Frazzini-Pedersen market beta (14%); Downside beta (13%)
+   Not used (coverage): ivol_hxz4_21d ocfq_saleq_std
+
+GBR | Profitability (theme rank 2) | factors 11/11 | 393 months
+   R2: theme average 0.14, all factors 0.22 | first principal component explains 0.47 of factor variance
+   Top factors: Operating cash flow to assets (30%); Return on equity (19%); Profit margin (12%)
+
+GBR | Low risk (theme rank 1) | factors 16/18 | 360 months
+   R2: theme average 0.42, all factors 0.53 | first principal component explains 0.65 of factor variance
+   Top factors: Market Beta (18%); Downside beta (11%); Frazzini-Pedersen market beta (10%)
+   Not used (coverage): ivol_hxz4_21d ocfq_saleq_std
+
+AUS | Quality (theme rank 2) | factors 12/17 | 386 months
+   R2: theme average 0.15, all factors 0.33 | first principal component explains 0.48 of factor variance
+   Top factors: Quality minus Junk: Safety (20%); Cash-based operating profits-to-book assets (16%); Quality minus Junk: Composite (15%)
+   Not used (coverage): dgp_dsale gp_at gp_atl1 ni_inc8q niq_at
+
+AUS | Low risk (theme rank 1) | factors 16/18 | 360 months
+   R2: theme average 0.38, all factors 0.51 | first principal component explains 0.59 of factor variance
+   Top factors: Downside beta (17%); Market Beta (15%); Dimson beta (10%)
+   Not used (coverage): ivol_hxz4_21d ocfq_saleq_std
+
+Low risk: rank of each factor by Shapley R2 within the theme (1 = most important)
+                                                   description USA JPN DEU GBR
+                                                   Market Beta   1   1   1   1
+                                 Frazzini-Pedersen market beta   2   2   2   3
+                                                 Downside beta   3   9   3   2
+                                             Return volatility   5   4   8   4
+                                                   Dimson beta   4   6   4  10
+              Idiosyncratic volatility from the CAPM (21 days)  13   5  12   6
+                                          Maximum daily return   7   7  11   9
+ Number of zero trades with turnover as tiebreaker (12 months)   6  12   5  11
+                                      Highest 5 days of return  11  10  10   7
+  Idiosyncratic volatility from the Fama-French 3-factor model  14   8  13   5
+             Idiosyncratic volatility from the CAPM (252 days)  12   3  14   8
+  Number of zero trades with turnover as tiebreaker (6 months)   8  13   7  13
+                                                Share turnover   9  14   6  12
+   Number of zero trades with turnover as tiebreaker (1 month)  10  11   9  14
+                          Years 6-10 lagged returns, nonannual  16  16  15  15
+                                          Earnings variability  15  15  16  16
+ AUS
+   2
+   4
+   1
+   5
+   3
+   7
+   9
+  11
+   8
+   6
+  10
+  12
+  13
+  15
+  14
+  16

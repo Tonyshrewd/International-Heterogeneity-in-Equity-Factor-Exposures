@@ -1,0 +1,11 @@
+country,theme,rank_in_table5,factors_available,factors_used,months,first_month,r2_theme_average,r2_all_factors,pc1_share,dropped
+USA,low_risk,1,18,16,419,1991-02-28,0.4799,0.6511,0.8626,ivol_hxz4_21d ocfq_saleq_std
+USA,low_leverage,2,11,11,419,1991-02-28,0.1585,0.5895,0.787,""
+JPN,low_risk,1,18,16,360,1996-01-31,0.3732,0.4791,0.7373,ivol_hxz4_21d ocfq_saleq_std
+JPN,quality,2,17,15,419,1991-02-28,0.1243,0.3987,0.5703,ni_inc8q niq_at
+DEU,low_risk,1,18,16,360,1996-01-31,0.447,0.6168,0.667,ivol_hxz4_21d ocfq_saleq_std
+DEU,momentum,2,8,8,404,1992-05-31,0.1591,0.4185,0.7117,""
+GBR,low_risk,1,18,16,360,1996-01-31,0.4173,0.5257,0.6519,ivol_hxz4_21d ocfq_saleq_std
+GBR,profitability,2,11,11,393,1993-01-31,0.1445,0.2156,0.4684,""
+AUS,low_risk,1,18,16,360,1996-01-31,0.3791,0.5138,0.5933,ivol_hxz4_21d ocfq_saleq_std
+AUS,quality,2,17,12,386,1993-11-30,0.1544,0.3325,0.4796,dgp_dsale gp_at gp_atl1 ni_inc8q niq_at
