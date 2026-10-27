@@ -1,0 +1,50 @@
+country,country_name,msci,complete_start,complete_end,complete_months,longest_complete_run,median_stocks
+USA,United States,developed,1951-11-30,2025-12-31,890,890,4244.5
+CAN,Canada,developed,1982-05-31,2025-12-31,524,524,900
+GBR,United Kingdom,developed,1986-04-30,2025-12-31,477,477,1588.5
+JPN,Japan,developed,1986-04-30,2025-12-31,477,477,3609
+AUS,Australia,developed,1990-11-30,2025-12-31,422,422,1418
+HKG,Hong Kong,developed,1990-11-30,2025-12-31,422,422,992
+MYS,Malaysia,emerging,1990-11-30,2025-12-31,422,422,899
+SGP,Singapore,developed,1990-11-30,2025-12-31,422,422,513.5
+ZAF,South Africa,emerging,1990-11-30,2025-12-31,422,422,288
+DEU,Germany,developed,1991-02-28,2025-12-31,419,419,727.5
+AUT,Austria,developed,1991-05-31,2025-12-31,416,416,72
+BEL,Belgium,developed,1991-05-31,2025-12-31,416,416,136
+CHE,Switzerland,developed,1991-05-31,2025-12-31,416,416,225.5
+DNK,Denmark,developed,1991-05-31,2025-12-31,416,416,148
+FIN,Finland,developed,1991-05-31,2025-12-31,416,416,124
+FRA,France,developed,1991-05-31,2025-12-31,416,416,694
+ITA,Italy,developed,1991-05-31,2025-12-31,416,416,262
+NLD,Netherlands,developed,1991-05-31,2025-12-31,416,416,128.5
+NOR,Norway,developed,1991-05-31,2025-12-31,416,416,198.5
+SWE,Sweden,developed,1991-05-31,2025-12-31,416,416,301.5
+ESP,Spain,developed,1991-05-31,2025-12-31,408,404,141
+NZL,New Zealand,developed,1992-12-31,2025-12-31,396,392,111
+MEX,Mexico,emerging,1993-05-31,2025-12-31,392,392,87
+CHL,Chile,emerging,1993-08-31,2025-12-31,387,385,127
+IDN,Indonesia,emerging,1993-05-31,2025-12-31,385,325,279
+THA,Thailand,emerging,1993-05-31,2025-12-31,377,325,458.5
+KOR,South Korea,emerging,1995-05-31,2025-12-31,368,368,1281
+TWN,Taiwan,emerging,1996-05-31,2025-12-31,356,356,1254
+CHN,China,emerging,1996-08-31,2025-12-31,352,351,1493
+ISR,Israel,developed,1997-05-31,2025-12-31,344,344,376
+PRT,Portugal,developed,1998-05-31,2025-12-31,332,332,49
+TUR,Turkey,emerging,1998-05-31,2025-12-31,332,332,294
+IRL,Ireland,developed,1993-12-31,2023-05-31,318,228,37
+IND,India,emerging,2000-04-30,2025-12-31,296,282,1108.5
+GRC,Greece,emerging,1998-05-31,2025-12-31,295,164,158
+BRA,Brazil,emerging,1998-05-31,2025-12-31,289,260,96
+SAU,Saudi Arabia,emerging,2002-05-31,2025-12-31,284,284,155
+PHL,Philippines,emerging,1997-05-31,2025-12-31,278,235,172
+RUS,Russia,not rated,2000-02-29,2022-07-31,270,270,160
+POL,Poland,emerging,2000-04-30,2025-12-31,253,241,408
+KWT,Kuwait,emerging,2005-05-31,2025-12-31,243,140,154
+PER,Peru,emerging,2007-02-28,2025-12-31,227,227,58
+ARE,United Arab Emirates,emerging,2007-07-31,2025-12-31,219,149,79
+COL,Colombia,emerging,2008-01-31,2025-12-31,216,216,33
+QAT,Qatar,emerging,2008-05-31,2025-12-31,212,212,43
+MAR,Morocco,frontier,2007-11-30,2025-12-31,201,103,65
+ARG,Argentina,standalone,1996-07-31,2025-12-31,196,53,65
+EGY,Egypt,emerging,2005-10-31,2025-12-31,196,67,161
+PAK,Pakistan,frontier,2007-08-31,2025-12-31,173,133,309.5

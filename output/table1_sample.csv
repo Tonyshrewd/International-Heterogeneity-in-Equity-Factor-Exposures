@@ -1,0 +1,6 @@
+Code,Country,MSCI,Market from,All 13 themes from,Last month,Months (maximal),Months (common),Median stocks,Min stocks
+USA,United States,developed,Jan 1926,Nov 1951,Dec 2025,890,419,5240,4204
+JPN,Japan,developed,Jan 1986,Apr 1986,Dec 2025,477,419,3649,1695
+DEU,Germany,developed,Jan 1986,Feb 1991,Dec 2025,419,419,750,214
+GBR,United Kingdom,developed,Jan 1986,Apr 1986,Dec 2025,477,419,1626,745
+AUS,Australia,developed,Nov 1985,Nov 1990,Dec 2025,422,419,1599,273

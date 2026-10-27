@@ -1,0 +1,6 @@
+country,Country,Months,Mean (%/mo),SD (%/mo),t(mean),Ann. Sharpe,Min (%),Max (%),Skewness,AR(1)
+USA,United States,419,0.77,4.92,3.22,0.54,-21.3,15.4,-0.62,0.04
+JPN,Japan,419,0.23,5.23,0.92,0.15,-16.2,17.2,0.25,0.12
+DEU,Germany,419,0.52,5.28,2.01,0.34,-26.7,16.7,-0.57,0.1
+GBR,United Kingdom,419,0.53,5.16,2.11,0.36,-25.9,19.5,-0.55,0.13
+AUS,Australia,419,0.72,6.04,2.45,0.41,-32.7,20,-0.7,0.05
