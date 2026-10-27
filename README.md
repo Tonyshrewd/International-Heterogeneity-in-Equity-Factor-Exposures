@@ -29,6 +29,20 @@ Or open the script in RStudio, set the working directory to this folder, and cli
 
 The raw JKP files are stored zipped in `raw/zips/` because each unzipped factor CSV (180–190 MB) is over GitHub's 100 MB file limit. The build script unzips them into `raw/csv/` automatically.
 
+## Five-country feasibility study
+
+The pilot (United States, Japan, Germany, United Kingdom, Australia; common window Feb 1991 – Dec 2025, 419 months) is produced by these scripts, run in order after `02_build_panel.R` (extra packages: `sandwich`, `ggplot2`):
+
+| Script | Produces | Main output files |
+| --- | --- | --- |
+| `03_descriptives.R` | Table 1 (sample), Table 2 (descriptive statistics, theme premia) | `output/tables_1_2.txt`, `table1_*.csv`, `table2*_*.csv` |
+| `04_model1.R` | Table 3 (Model 1 regressions, Newey–West SEs, VIFs) | `output/table3_model1.txt`, `table3_*.csv`, `theme_correlations_*.csv` |
+| `05_importance.R` | Tables 4–5 (standardized coefficients, drop-one R², exact Shapley R², block bootstrap) | `output/tables_4_5.txt`, `table4_5_importance_long.csv` |
+| `06_within_theme.R` | Table 6 (factors within Low risk and each country's second-ranked theme) | `output/table6_within_theme.txt`, `table6_*.csv` |
+| `07_figures.R` | Figure 1A–1B (theme-importance heatmaps, overall and after controlling for Low risk) | `output/figure1a_*.png`, `figure1b_*.png` |
+
+A clean rebuild from the raw files reproduces every output exactly (the bootstrap uses a fixed seed). The written feasibility report is shared with the team as a separate document.
+
 ## Data license
 
 The JKP Global Factor Data is licensed under CC BY-NC 4.0 (non-commercial use with attribution). Cite: Jensen, T. I., Kelly, B., and Pedersen, L. H. (2023). "Is There a Replication Crisis in Finance?" *Journal of Finance*, 78(5), 2465–2518.
